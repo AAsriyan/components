@@ -1,5 +1,4 @@
 import React from "react";
-import ApprovalCard from "./ApprovalCard";
 
 const CommentDetail = props => {
   return (
@@ -16,7 +15,6 @@ const CommentDetail = props => {
         </div>
         <div className="text">{props.commentText}</div>
       </div>
-      <ApprovalCard />
     </div>
   );
 };
